@@ -11,36 +11,54 @@ int main()
 	switch(grade){
 		case 'A':
 			printf("Grade A.");
-			printf("Exellent work! ");
+			printf("\nExellent work! ");
 			break;
 		case 'B':
 			printf("Grade B.");
-			printf("Well done! ");
+			printf("\nWell done! ");
 			break;
 		case 'C':
 			printf("Grade C.");
-			printf("Good job! ");
+			printf("\nGood job! ");
 			break;
 		case 'D':
 			printf("Grade D.");
-			printf("You passed,but you could do better! ");
+			printf("\nYou passed,but you could do better! ");
 			break;
 		default:
 			printf("Grade F.");
-			printf("sorry,you failed. ");				
+			printf("\nsorry,you failed. ");				
 	}
 	if(marks<35){
-		printf("Please try again next time.");
+		printf("\nPlease try again next time.");
 	}else{
-		printf("Congratulation! You are eligible for the next level.");
+		printf("\nCongratulation! You are eligible for the next level.");
 	}
 }
 /*
 	output:
 	1.Enter your marks:100
-	  Grade A.Exellent work!
+	  Grade A.
+	  Exellent work!
+	  Congratulation! You are eligible for the next level.
 	  
-	2.Enter your marks:55
-	  Grade D.You passed,but you could do better! Congratulation! You are eligible for the next level.
+	2.Enter your marks:75
+	  Grade B.
+	  Well done!
+	  Congratulation! You are eligible for the next level.
 	
+	3.Enter your marks:64
+	  Grade C.
+	  Good job!
+	  Congratulation! You are eligible for the next level.
+	  
+	4.Enter your marks:57
+	  Grade D.
+	  You passed,but you could do better!
+	  Congratulation! You are eligible for the next level. 
+	  
+	5.Enter your marks:33
+	  Grade F.
+	  sorry,you failed.
+	  Please try again next time.   
 */
